@@ -16,7 +16,7 @@ type Contact struct {
 
 func (campaign Campaign) NewCampaign() *Campaign {
 	return &Campaign{
-		ID:        campaign.ID,
+		ID:        "1",
 		Name:      campaign.Name,
 		CreatedOn: time.Now(),
 		Body:      campaign.Body,
