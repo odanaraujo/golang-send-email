@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a31638b7-9083-4ecf-b1cd-e399bf24143e" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/domain/campaign/campaign.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/domain/campaign/campaign.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/domain/campaign/campaign_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/domain/campaign/campaign_test.go" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
+  <component name="GOROOT" url="file://$PROJECT_DIR$/../../../Program Files/Go" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;odanaraujo&quot;
+  }
+}</component>
+  <component name="GitToolBoxStore">
+    <option name="recentBranches">
+      <RecentBranches>
+        <option name="branchesForRepo">
+          <list>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="main" />
+                    <option name="lastUsedInstant" value="1702514022" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="master" />
+                    <option name="lastUsedInstant" value="1702514021" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$" />
+            </RecentBranchesForRepo>
+          </list>
+        </option>
+      </RecentBranches>
+    </option>
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="cf8db801-d5e6-4020-bef3-d9a5bfa9326c" />
+        <option name="url" value="https://github.com/odanaraujo/golang-send-email.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2ZSyL5kHh7Xzd5yzT3m7SU0hDwC" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultGoTemplateProperty": "Go File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.go.formatter.settings.were.checked": "true",
+    "RunOnceActivity.go.migrated.go.modules.settings": "true",
+    "RunOnceActivity.go.modules.automatic.dependencies.download": "true",
+    "RunOnceActivity.go.modules.go.list.on.any.changes.was.set": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "feature/test-file-campaign",
+    "go.import.settings.migrated": "true",
+    "last_opened_file_path": "C:/Users/aderi",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "settings.editor.selected.configurable": "vcs.Git"
+  }
+}]]></component>
+  <component name="RunManager" selected="Go Test.TestCampaign_NewCampaign_DateIsNotNil in github.com/odanaraujo/golang/send-emails/internal/domain/campaign">
+    <configuration name="TestCampaign_NewCampaign in github.com/odanaraujo/golang/send-emails/internal/domain/campaign (1)" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="send-emails" />
+      <working_directory value="$PROJECT_DIR$/internal/domain/campaign" />
+      <root_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="github.com/odanaraujo/golang/send-emails/internal/domain/campaign" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestCampaign_NewCampaign\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestCampaign_NewCampaign in github.com/odanaraujo/golang/send-emails/internal/domain/campaign" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="send-emails" />
+      <working_directory value="$PROJECT_DIR$/internal/domain/campaign" />
+      <root_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="github.com/odanaraujo/golang/send-emails/internal/domain/campaign" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestCampaign_NewCampaign\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestCampaign_NewCampaign_DateIsNotNil in github.com/odanaraujo/golang/send-emails/internal/domain/campaign" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="send-emails" />
+      <working_directory value="$PROJECT_DIR$/internal/domain/campaign" />
+      <root_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="github.com/odanaraujo/golang/send-emails/internal/domain/campaign" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestCampaign_NewCampaign_DateIsNotNil\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestCampaign_NewCampaign_IDIsNotNil in github.com/odanaraujo/golang/send-emails/internal/domain/campaign" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="send-emails" />
+      <working_directory value="$PROJECT_DIR$/internal/domain/campaign" />
+      <root_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="github.com/odanaraujo/golang/send-emails/internal/domain/campaign" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestCampaign_NewCampaign_IDIsNotNil\E$" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Test.TestCampaign_NewCampaign_DateIsNotNil in github.com/odanaraujo/golang/send-emails/internal/domain/campaign" />
+        <item itemvalue="Go Test.TestCampaign_NewCampaign_IDIsNotNil in github.com/odanaraujo/golang/send-emails/internal/domain/campaign" />
+        <item itemvalue="Go Test.TestCampaign_NewCampaign in github.com/odanaraujo/golang/send-emails/internal/domain/campaign (1)" />
+        <item itemvalue="Go Test.TestCampaign_NewCampaign in github.com/odanaraujo/golang/send-emails/internal/domain/campaign" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VgoProject">
+    <settings-migrated>true</settings-migrated>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/send_emails$TestCampaign_NewCampaign_in_github_com_odanaraujo_golang_send_emails_internal_domain_campaign.out" NAME="TestCampaign_NewCampaign in github.com/odanaraujo/golang/send-emails/internal/domain/campaign Coverage Results" MODIFIED="1702516748433" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>

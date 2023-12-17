@@ -1,6 +1,9 @@
 package campaign
 
-import "time"
+import (
+	"github.com/rs/xid"
+	"time"
+)
 
 type Campaign struct {
 	ID        string
@@ -16,7 +19,7 @@ type Contact struct {
 
 func (campaign Campaign) NewCampaign() *Campaign {
 	return &Campaign{
-		ID:        "1",
+		ID:        xid.New().String(),
 		Name:      campaign.Name,
 		CreatedOn: time.Now(),
 		Body:      campaign.Body,
