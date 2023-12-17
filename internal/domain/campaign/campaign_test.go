@@ -6,11 +6,14 @@ import (
 	"time"
 )
 
+var (
+	name     = "campaign X"
+	body     = "Body Content"
+	contact  = Contact{Email: "teste@gmail.com"}
+	contacts = []Contact{contact}
+)
+
 func TestCampaign_NewCampaign(t *testing.T) {
-	name := "campaign X"
-	body := "Body Content"
-	contact := Contact{Email: "teste@gmail.com"}
-	contacts := []Contact{contact}
 
 	campaign := Campaign{
 		ID:      "1",
@@ -26,11 +29,6 @@ func TestCampaign_NewCampaign(t *testing.T) {
 
 func TestCampaign_NewCampaign_IDIsNotNil(t *testing.T) {
 
-	name := "campaign X"
-	body := "Body Content"
-	contact := Contact{Email: "teste@gmail.com"}
-	contacts := []Contact{contact}
-
 	campaign := Campaign{
 		ID:      "1",
 		Name:    name,
@@ -43,12 +41,7 @@ func TestCampaign_NewCampaign_IDIsNotNil(t *testing.T) {
 	assert.NotNil(t, campaign.ID, "valor não pode ser vazio")
 }
 
-func TestCampaign_NewCampaign_DateIsNotNil(t *testing.T) {
-
-	name := "campaign X"
-	body := "Body Content"
-	contact := Contact{Email: "teste@gmail.com"}
-	contacts := []Contact{contact}
+func TestCampaign_NewCampaign_CreatedOnMustBeNow(t *testing.T) {
 
 	campaign := Campaign{
 		ID:      "1",
@@ -62,4 +55,30 @@ func TestCampaign_NewCampaign_DateIsNotNil(t *testing.T) {
 	campaign = *campaign.NewCampaign()
 
 	assert.Greater(t, campaign.CreatedOn, now)
+}
+
+func TestCampaign_ValidateName(t *testing.T) {
+	campaign := Campaign{
+		ID:      "1",
+		Name:    "",
+		Body:    body,
+		Contact: contacts,
+	}
+
+	err := campaign.Validate()
+
+	assert.Error(t, err, "name is required")
+}
+
+func TestCampaign_ValidateBody(t *testing.T) {
+	campaign := Campaign{
+		ID:      "1",
+		Name:    name,
+		Body:    "",
+		Contact: contacts,
+	}
+
+	err := campaign.Validate()
+
+	assert.Error(t, err, "body is required")
 }
