@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a31638b7-9083-4ecf-b1cd-e399bf24143e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/internal/contract/NewCampaign.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/internal/domain/campaign/repository.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/internal/service/campaignService.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/service/campaignService_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/service/campaignService.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/service/campaignService.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,17 +95,29 @@
       <recent name="C:\Estudos\golang\send-emails\internal\domain\campaign" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Test.go test send-emails">
-    <configuration name="TestCampaign_NewCampaign_DateIsNotNil in github.com/odanaraujo/golang/send-emails/internal/domain/campaign" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Test.TestCampaignService_SaveCreate in github.com/odanaraujo/golang/send-emails/internal/service">
+    <configuration name="TestCampaignService_Create in github.com/odanaraujo/golang/send-emails/internal/service" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="send-emails" />
-      <working_directory value="$PROJECT_DIR$/internal/domain/campaign" />
+      <working_directory value="$PROJECT_DIR$/internal/service" />
       <root_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="github.com/odanaraujo/golang/send-emails/internal/domain/campaign" />
+      <package value="github.com/odanaraujo/golang/send-emails/internal/service" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
-      <pattern value="^\QTestCampaign_NewCampaign_DateIsNotNil\E$" />
+      <pattern value="^\QTestCampaignService_Create\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestCampaignService_SaveCreate in github.com/odanaraujo/golang/send-emails/internal/service" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="send-emails" />
+      <working_directory value="$PROJECT_DIR$/internal/service" />
+      <root_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="github.com/odanaraujo/golang/send-emails/internal/service" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestCampaignService_SaveCreate\E$" />
       <method v="2" />
     </configuration>
     <configuration name="TestCampaign_Validate in github.com/odanaraujo/golang/send-emails/internal/domain/campaign" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -133,21 +144,11 @@
       <pattern value="^\QTestCampaign_ValidateBody\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="go test github.com/odanaraujo/golang/send-emails/internal/domain/campaign" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="send-emails" />
-      <working_directory value="$PROJECT_DIR$/internal/domain/campaign" />
-      <root_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="github.com/odanaraujo/golang/send-emails/internal/domain/campaign" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <framework value="gotest" />
-      <method v="2" />
-    </configuration>
     <configuration name="go test send-emails" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="send-emails" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="DIRECTORY" />
+      <package value="github.com/odanaraujo/golang/send-emails" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
@@ -155,11 +156,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.TestCampaignService_SaveCreate in github.com/odanaraujo/golang/send-emails/internal/service" />
+        <item itemvalue="Go Test.TestCampaignService_Create in github.com/odanaraujo/golang/send-emails/internal/service" />
         <item itemvalue="Go Test.go test send-emails" />
         <item itemvalue="Go Test.TestCampaign_ValidateBody in github.com/odanaraujo/golang/send-emails/internal/domain/campaign" />
         <item itemvalue="Go Test.TestCampaign_Validate in github.com/odanaraujo/golang/send-emails/internal/domain/campaign" />
-        <item itemvalue="Go Test.go test github.com/odanaraujo/golang/send-emails/internal/domain/campaign" />
-        <item itemvalue="Go Test.TestCampaign_NewCampaign_DateIsNotNil in github.com/odanaraujo/golang/send-emails/internal/domain/campaign" />
       </list>
     </recent_temporary>
   </component>
@@ -180,6 +181,17 @@
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/internal/service/campaignService.go</url>
+          <line>19</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/send_emails$go_test_send_emails.out" NAME="go test send-emails Coverage Results" MODIFIED="1702855139342" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
