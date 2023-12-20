@@ -5,9 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a31638b7-9083-4ecf-b1cd-e399bf24143e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/configurations/exception/exception.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/configurations/validation/validate.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/domain/campaign/campaign.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/domain/campaign/campaign.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/internal/domain/campaign/campaign_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/domain/campaign/campaign_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/internal/service/campaignService_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/service/campaignService_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/service/campaignService.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/service/campaignService.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,12 +46,12 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
-                    <option name="branchName" value="main" />
-                    <option name="lastUsedInstant" value="1702514022" />
+                    <option name="branchName" value="feature/errors-template" />
+                    <option name="lastUsedInstant" value="1702951176" />
                   </RecentBranch>
                   <RecentBranch>
-                    <option name="branchName" value="master" />
-                    <option name="lastUsedInstant" value="1702514021" />
+                    <option name="branchName" value="main" />
+                    <option name="lastUsedInstant" value="1702951164" />
                   </RecentBranch>
                 </list>
               </option>
@@ -72,30 +78,53 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultGoTemplateProperty&quot;: &quot;Go File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.modules.automatic.dependencies.download&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.modules.go.list.on.any.changes.was.set&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;feature/test-file-campaign&quot;,
-    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/aderi&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultGoTemplateProperty": "Go File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.go.formatter.settings.were.checked": "true",
+    "RunOnceActivity.go.migrated.go.modules.settings": "true",
+    "RunOnceActivity.go.modules.automatic.dependencies.download": "true",
+    "RunOnceActivity.go.modules.go.list.on.any.changes.was.set": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "feature/errors-template",
+    "go.import.settings.migrated": "true",
+    "last_opened_file_path": "C:/Estudos/projeto/user-api",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "settings.editor.selected.configurable": "vcs.Git"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Estudos\golang\send-emails\configurations\validation" />
+      <recent name="C:\Estudos\golang\send-emails\configurations\exception" />
       <recent name="C:\Estudos\golang\send-emails\internal\domain\campaign" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Test.go test github.com/odanaraujo/golang/send-emails/internal/domain/campaign">
+  <component name="RunManager" selected="Go Build.go build github.com/odanaraujo/golang/send-emails">
+    <configuration name="go build github.com/odanaraujo/golang/send-emails" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="send-emails" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="github.com/odanaraujo/golang/send-emails" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/main.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestCampaignService_ValidateCreate in github.com/odanaraujo/golang/send-emails/internal/service" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="send-emails" />
+      <working_directory value="$PROJECT_DIR$/internal/service" />
+      <root_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="github.com/odanaraujo/golang/send-emails/internal/service" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestCampaignService_ValidateCreate\E$" />
+      <method v="2" />
+    </configuration>
     <configuration name="TestCampaign_Validate in github.com/odanaraujo/golang/send-emails/internal/domain/campaign" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="send-emails" />
       <working_directory value="$PROJECT_DIR$/internal/domain/campaign" />
@@ -106,18 +135,6 @@
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
       <pattern value="^\QTestCampaign_Validate\E$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="TestCampaign_ValidateBody in github.com/odanaraujo/golang/send-emails/internal/domain/campaign" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="send-emails" />
-      <working_directory value="$PROJECT_DIR$/internal/domain/campaign" />
-      <root_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="github.com/odanaraujo/golang/send-emails/internal/domain/campaign" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <framework value="gotest" />
-      <pattern value="^\QTestCampaign_ValidateBody\E$" />
       <method v="2" />
     </configuration>
     <configuration name="TestCampaign_ValidateContact in github.com/odanaraujo/golang/send-emails/internal/domain/campaign" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -143,24 +160,13 @@
       <framework value="gotest" />
       <method v="2" />
     </configuration>
-    <configuration name="go test github.com/odanaraujo/golang/send-emails/internal/service" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="send-emails" />
-      <working_directory value="$PROJECT_DIR$/internal/service" />
-      <root_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="github.com/odanaraujo/golang/send-emails/internal/service" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <framework value="gotest" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build github.com/odanaraujo/golang/send-emails" />
+        <item itemvalue="Go Test.TestCampaignService_ValidateCreate in github.com/odanaraujo/golang/send-emails/internal/service" />
         <item itemvalue="Go Test.go test github.com/odanaraujo/golang/send-emails/internal/domain/campaign" />
         <item itemvalue="Go Test.TestCampaign_Validate in github.com/odanaraujo/golang/send-emails/internal/domain/campaign" />
         <item itemvalue="Go Test.TestCampaign_ValidateContact in github.com/odanaraujo/golang/send-emails/internal/domain/campaign" />
-        <item itemvalue="Go Test.TestCampaign_ValidateBody in github.com/odanaraujo/golang/send-emails/internal/domain/campaign" />
-        <item itemvalue="Go Test.go test github.com/odanaraujo/golang/send-emails/internal/service" />
       </list>
     </recent_temporary>
   </component>
@@ -186,6 +192,6 @@
     <SUITE FILE_PATH="coverage/send_emails$go_test_github_com_odanaraujo_golang_send_emails_internal_service.out" NAME="go test github.com/odanaraujo/golang/send-emails/internal/service Coverage Results" MODIFIED="1702950365905" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/send_emails$go_test_send_emails.out" NAME="go test send-emails Coverage Results" MODIFIED="1702855139342" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/send_emails$TestCampaign_NewCampaign_in_github_com_odanaraujo_golang_send_emails_internal_domain_campaign.out" NAME="TestCampaign_NewCampaign in github.com/odanaraujo/golang/send-emails/internal/domain/campaign Coverage Results" MODIFIED="1702516748433" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/send_emails$go_test_github_com_odanaraujo_golang_send_emails_internal_domain_campaign.out" NAME="go test github.com/odanaraujo/golang/send-emails/internal/domain/campaign Coverage Results" MODIFIED="1702950982251" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/send_emails$go_test_github_com_odanaraujo_golang_send_emails_internal_domain_campaign.out" NAME="go test github.com/odanaraujo/golang/send-emails/internal/domain/campaign Coverage Results" MODIFIED="1702951046634" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

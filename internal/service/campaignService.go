@@ -1,7 +1,8 @@
 package service
 
 import (
-	"errors"
+	"fmt"
+	"github.com/odanaraujo/golang/send-emails/configurations/exception"
 	"github.com/odanaraujo/golang/send-emails/internal/contract"
 	"github.com/odanaraujo/golang/send-emails/internal/domain/campaign"
 )
@@ -18,11 +19,12 @@ func (s *CampaignService) Create(newCampaign *contract.NewCampaign) (string, err
 	}
 
 	if err := campaignService.Validate(); err != nil {
-		return "", errors.New("validate error")
+		fmt.Println(err.Error())
+		return "", exception.NewBadRequestErr(err.Error())
 	}
 
 	if err := s.Repository.Save(campaignService.NewCampaign()); err != nil {
-		return "", errors.New("unable to save campaignService")
+		return "", exception.NewInternalServerError(err.Error())
 	}
 
 	return campaignService.ID, nil
